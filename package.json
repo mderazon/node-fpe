@@ -9,6 +9,10 @@
   "engines": {
     "node": ">=6.6.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mderazon/node-fpe.git"
+  },
   "author": "Michael Derazon <mderazon@hotmail.com>",
   "homepage": "https://github.com/mderazon/node-fpe",
   "keywords": [
