@@ -1,0 +1,32 @@
+{
+  "name": "node-fpe",
+  "version": "1.0.0",
+  "description": "Format-preserving encryption implementation",
+  "main": "lib",
+  "scripts": {
+    "test": "standard && tape test"
+  },
+  "engines": {
+    "node": ">=6.6.0"
+  },
+  "author": "Michael Derazon <mderazon@hotmail.com>",
+  "homepage": "https://github.com/mderazon/node-fpe",
+  "keywords": [
+    "fpe",
+    "format",
+    "preserving",
+    "encryption",
+    "prefix",
+    "cipher",
+    "rogaway"
+  ],
+  "files": [
+    "lib",
+    "*.js"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^8.5.0",
+    "tape": "^4.6.2"
+  }
+}
