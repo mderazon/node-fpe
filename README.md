@@ -14,7 +14,7 @@ This library uses a simple FPE from a [prefix cipher](https://en.wikipedia.org/w
 cipher with default domain ([0-9]) and default encryption alg (aes-256-cbc):
 
 ```js
-const fpe = require(node-fpe)
+const fpe = require('node-fpe')
 const cipher = fpe({password: 'secret'})
 
 cipher.encrypt('1234567')
@@ -27,7 +27,7 @@ cipher.decrypt('4185730')
 cipher with custom domain ([A-E]) and default encryption alg (aes-256-cbc):
 
 ```js
-const fpe = require(node-fpe)
+const fpe = require('node-fpe')
 const cipher = fpe({password: 'secret', domain: ['A', 'B', 'C', 'D', 'E']})
 
 cipher.encrypt('BEEBEE')
