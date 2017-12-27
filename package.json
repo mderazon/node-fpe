@@ -4,7 +4,8 @@
   "description": "Format-preserving encryption implementation",
   "main": "lib",
   "scripts": {
-    "test": "standard && tape test"
+    "test:prettier": "prettier --single-quote --list-different **/*.js",
+    "test": "npm run test:prettier && tape test"
   },
   "engines": {
     "node": ">=6.6.0"
@@ -24,13 +25,10 @@
     "cipher",
     "rogaway"
   ],
-  "files": [
-    "lib",
-    "*.js"
-  ],
+  "files": ["lib", "*.js"],
   "license": "MIT",
   "devDependencies": {
-    "standard": "^8.5.0",
-    "tape": "^4.6.2"
+    "prettier": "^1.9.2",
+    "tape": "^4.8.0"
   }
 }
