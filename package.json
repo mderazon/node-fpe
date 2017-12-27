@@ -10,11 +10,12 @@
   "engines": {
     "node": ">=6.6.0"
   },
+  "bugs:": "https://github.com/mderazon/node-fpe/issues",
   "repository": {
     "type": "git",
     "url": "git://github.com/mderazon/node-fpe.git"
   },
-  "author": "Michael Derazon <mderazon@hotmail.com>",
+  "author": "Michael DeRazon <mderazon@hotmail.com>",
   "homepage": "https://github.com/mderazon/node-fpe",
   "keywords": [
     "fpe",
