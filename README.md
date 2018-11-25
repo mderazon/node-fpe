@@ -42,6 +42,6 @@ cipher.decrypt('CBBCBB');
 
 Options to pass on to _node-fpe_ are:
 
-* `password`: **mandatory**. a secret used in the underlying block cipher.
-* `algorithm`: **optional**. the underlying block cipher used. similar to the input to node's [crypto.createCipher()](https://nodejs.org/api/crypto.html#crypto_crypto_createcipher_algorithm_password). **default**: _aes-256-cbc_
-* `domain`: **optional**. an array of characters used as the FPE domain. **default**: 0-9 digits
+- `password`: **mandatory**. a secret used in the underlying block cipher.
+- `algorithm`: **optional**. the underlying block cipher used. similar to the input to node's [crypto.createCipher()](https://nodejs.org/api/crypto.html#crypto_crypto_createcipher_algorithm_password). **default**: _aes-256-cbc_
+- `domain`: **optional**. an array of characters used as the FPE domain. **default**: 0-9 digits
