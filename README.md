@@ -1,6 +1,6 @@
 # node-fpe
 
-[![Build Status](https://travis-ci.org/mderazon/node-fpe.svg?branch=master)](https://travis-ci.org/mderazon/node-fpe) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Build status](https://github.com/mderazon/node-fpe/workflows/build/badge.svg)](https://github.com/mderazon/node-fpe/actions) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > Format preserving string substitution encryption
 
