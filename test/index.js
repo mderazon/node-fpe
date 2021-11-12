@@ -20,9 +20,10 @@ test('different secrets', (t) => {
 });
 
 test('ascii domain', (t) => {
-  var ascii = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.split(
-    ''
-  );
+  var ascii =
+    ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.split(
+      ''
+    );
   t.plan(1);
   const cipher = fpe({ secret: 'secret', domain: ascii });
   console.log(cipher.encrypt('ABBA'));
