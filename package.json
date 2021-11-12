@@ -33,7 +33,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.2.1",
-    "tape": "^5.1.0"
+    "prettier": "^2.4.1",
+    "tape": "^5.3.1"
   }
 }
