@@ -1,6 +1,6 @@
 {
   "name": "node-fpe",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Format-preserving encryption implementation",
   "main": "lib",
   "scripts": {
