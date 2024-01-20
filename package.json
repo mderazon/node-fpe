@@ -6,7 +6,7 @@
   "scripts": {
     "test:prettier": "prettier --single-quote --list-different **/*.js",
     "fix:prettier": "prettier --write '**/*.js'",
-    "test": "npm run test:prettier && tape test"
+    "test": "npm run test:prettier && node --test test -t 4000"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -33,7 +33,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.4.1",
-    "tape": "^5.3.1"
+    "prettier": "^3.2.4"
   }
 }
