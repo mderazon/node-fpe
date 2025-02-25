@@ -1,6 +1,6 @@
 # node-fpe
 
-[![Build status](https://github.com/mderazon/node-fpe/workflows/build/badge.svg)](https://github.com/mderazon/node-fpe/actions) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Build status](https://github.com/mderazon/node-fpe/actions/workflows/node.js.yml/badge.svg)](https://github.com/mderazon/node-fpe/actions) [![npm Version](https://badge.fury.io/js/node-fpe.svg)](https://badge.fury.io/js/node-fpe) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Format preserving string substitution encryption
 
@@ -15,7 +15,7 @@ This library uses a simple [substitution cipher](https://en.wikipedia.org/wiki/S
 cipher with default domain ([0-9])
 
 ```js
-const fpe = require('node-fpe');
+import fpe from 'node-fpe';
 const cipher = fpe({ secret: 'secret!' });
 
 cipher.encrypt('1234567');
@@ -28,7 +28,7 @@ cipher.decrypt('7130548');
 cipher with a custom domain ([A-E])
 
 ```js
-const fpe = require('node-fpe');
+import fpe from 'node-fpe';
 const cipher = fpe({ secret: 'secret!', domain: ['A', 'B', 'C', 'D', 'E'] });
 
 cipher.encrypt('BEEBEE');

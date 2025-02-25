@@ -8,6 +8,7 @@
     "fix:prettier": "prettier --write '**/*.js'",
     "test": "npm run test:prettier && node --test"
   },
+  "types": "lib/index.d.ts",
   "engines": {
     "node": ">=10.0.0"
   },
